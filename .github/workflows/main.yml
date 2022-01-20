@@ -33,4 +33,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           rm: true
           source: "./*"
-          target: "/var/www/home/html"
+          target: "/var/www/home"

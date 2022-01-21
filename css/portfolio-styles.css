@@ -52,14 +52,14 @@
   
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .body {
     flex-direction: column;
   }
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 601px) and (max-width: 960px) {
   .sign-up,
   .feature-1,
   .feature-2,

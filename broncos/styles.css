@@ -76,6 +76,10 @@
     background-color: white;
 }
 
+.article > img {
+    max-width: 300px;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 591px) {
     .header {

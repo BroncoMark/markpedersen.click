@@ -66,14 +66,20 @@
     display: flex;
     justify-content: center;
     padding: 1em;
+    flex-wrap: wrap;
 }
 
 .article {
     border: 2px solid rgb(0, 34, 68);
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 1em;
     background-color: white;
+}
+
+.article-text {
+    margin: 1em;
 }
 
 .article > img {

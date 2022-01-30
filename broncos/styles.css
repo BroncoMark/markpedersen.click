@@ -82,9 +82,18 @@
     margin: 1em;
 }
 
-.article > img {
+.article-image {
     max-width: 300px;
 }
+
+.roster {
+    max-width: 100%;
+}
+
+h2 {
+    margin: 1em;
+}
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 591px) {

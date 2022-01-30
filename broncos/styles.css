@@ -48,7 +48,6 @@
 .logo-image {
     max-width: 75px;
     max-height: 200px;
-    
 }
 
 .nav-link {
@@ -76,6 +75,7 @@
     align-items: center;
     margin: 1em;
     background-color: white;
+    max-width: 100%;
 }
 
 .article-text {
@@ -103,7 +103,7 @@ h2 {
     bottom: 0;
     background-color: rgb(231, 231, 231);
     margin-right: 1em;
-    }
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 591px) {

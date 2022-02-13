@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Fun Facts</title>
+    </head>
+    <body>
+        <button id="buttonFact">Click Here for Fun Fact!</button>
+        <div id="factBody"></div>
+    </body>
+    <script>
+        document.getElementById("buttonFact").addEventListener("click", function(event) {
+            event.preventDefault();
+            const url = "https://asli-fun-fact-api.herokuapp.com";
+            fetch(url)
+                .then(function(response) {
+                    return response.json();
+                }).then(function(json) {
+                    var everything;
+                    everything = "<p>" + json.data.fact + "</p?";
+                    document.getElementById("factBody").innerHTML = everything;
+                });
+        });
+    </script>
+</html>
